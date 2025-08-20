@@ -1,0 +1,27 @@
+<svg width="400" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="GRed">
+      <stop stop-color="#00ff00ff" offset="0%"/>
+      <stop stop-color="#ff0000ff" offset="5%"/>
+    </linearGradient>
+    <linearGradient id="GGreen">
+      <stop stop-color="#00ff00ff" offset="0%"/>
+    </linearGradient>
+    <linearGradient id="GBlue">
+      <stop stop-color="#00ff00ff" offset="0%"/>
+      <stop stop-color="#0000ffff" offset="5%"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="200" fill="#000022ff"/>
+  <circle cx="100" cy="100" r="50" fill="#222244ff"/>
+  <polygon points="135.355339,64.6446609 170.710678,100 135.355339,135.355339 100,100" x="100" y="50" width="50" height="50" fill="#000022ff"/>
+  <path d="M135.355339 64.6446609 A50 50 0 0 0 64.6446609 64.6446609" fill="#00000000" stroke="url(#GBlue)" stroke-width="2"/>
+  <path d="M64.6446609 64.6446609 A50 50 0 0 0 64.6446609 135.355339" fill="#00000000" stroke="url(#GGreen)" stroke-width="2"/>
+  <path d="M64.6446609 135.355339 A50 50 0 0 0 135.355339 135.355339" fill="#00000000" stroke="url(#GRed)" stroke-width="2"/>
+  <line x1="135.355339" y1="64.6446609" x2="100" y2="100" stroke="#444466ff" stroke-width="2"/>
+  <line x1="100" y1="100" x2="135.355339" y2="135.355339" stroke="#444466ff" stroke-width="2"/>
+  <circle cx="92.9289322" cy="71.7157288" r="3" fill="#ffffffff"/>
+  <path d="M250 60 q25 -25 50 0 q20 50 20 100 l-15 -20 l-15 20 l-15 -20 l-15 20 l-15 -20 l-15 20 q0 -50 20 -100" fill="#222266ff" stroke="#4444ffff" stroke-width="2"/>
+  <path d="M250 80 l15 -5 q-2 20 -15 5" fill="#ffffffff"/>
+  <path d="M300 80 l-15 -5 q2 20 15 5" fill="#ffffffff"/>
+</svg>
