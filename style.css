@@ -1,16 +1,43 @@
 body{
   background-image: url("./bg.svg");
+  margin: 0;
 }
 
-button[type=button]{
-  background-color: #fff0;
-  box-shadow: #0000 0px;
+#head{
+  background-image: url("./head.svg");
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.headIcon + .headBtn{
+  display: flex;
+}
+
+.headIcon > *{
+  min-height: 100px;
+  min-width: 100px;
+  background-color: #00000000;
+  background-image: url("./headIcon.svg");
   border: none;
-  border-radius: 0.25rem;
-  transition: 0.5s ease;
 }
 
-button[type=button]:hover{
-  background-color: #ffff;
-  box-shadow: 0px 2px #000f;
+.headBtn > *{
+  min-height: 100px;
+  min-width: 100px;
+  background-color: #00000000;
+  border: none;
+}
+
+#homeBtn{
+  background-image: url("./homeIcon.svg");
+}
+
+#cardBtn{
+  background-image: url("./cardIcon.svg");
+}
+
+#contactBtn{
+  background-image: url("./contactIcon.svg");
 }
